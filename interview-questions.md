@@ -15,41 +15,41 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
 1. What is git? What is the difference between git and Github?
 
-  Your answer:
+  Your answer: git is the command language used to access repositories, make branches, etc, on GitHub
 
-  Researched answer:
+  Researched answer: Git is the version control system dealing with source code tracking, and GitHub is the hosting service for git repositories/source codes
 
 
 
 2. Which JavaScript operators will return a Boolean value?
 
-  Your answer:
+  Your answer: And &&, Or ||, and Not !==
 
-  Researched answer:
+  Researched answer: &&, ||, !== are the primary boolean operators for JavaScript
 
 
 
 3. What is an index? What is the difference between index and value?
 
-  Your answer:
+  Your answer: Index is the character space in an array and starts at 0, whereas a value is a number between negative and positive infinity
 
-  Researched answer:
+  Researched answer: Index describes the location, whereas value can be the content
 
 
 
 4. What is iteration?
 
-  Your answer:
+  Your answer: Repetition of a process or a new version of something
 
-  Researched answer:
+  Researched answer: In JavaScript, it defines as a standard way to produce a sequence of values and return values when generated.
 
 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-  Your answer:
+  Your answer: Switching out after time amounts, or after set blocks of code. Driver does the typing and initials, navigator does the spoken pseudo code and double-checks lines as the pair go.
 
-  Researched answer:
+  Researched answer: The UK Government actual says to start with a plan, check-in regularly, and keep it a lighter/comfortable exchange. Roles are still driver does typing, navigator keeps errors down and helps pseudo code.
 
 
 
@@ -57,12 +57,12 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: Takes one or more functions as arguments
 
-2. Jest:
+2. Jest: JavaScript framework for test runs
 
-3. Objects:
+3. Objects: A standalone entity with its on properties
 
-4. Method:
+4. Method: Actions performed on objects.
 
-5. Classes:
+5. Classes: Object templates.
