@@ -7,43 +7,91 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in any two strings and returns the string with more characters. Use the two sets of test variables provided.
 
 // Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
-
-// Set two:
-const fruit3 = "cherry"
-const fruit4 = "kiwi"
+// const fruit1 = "apple"
+// const fruit2 = "banana"
+//
+// // Set two:
+// const fruit3 = "cherry"
+// const fruit4 = "kiwi"
 
 
 // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-const temp1 = 42
-const temp2 = 350
-const temp3 = 212
+//Inputs are 42, 350, 212 and threshold is boiling @ 212.
+//function with an if else statement of x > 212, x < 212, x === 212
+//3 returns total outputing "above...", "below...", and "at boiling"
+
+// const temp1 = 42
+// const temp2 = 350
+// const temp3 = 212
+//
+// const boil = (num) => {
+//   if (num > 212) {
+//     return `${num} is above boiling point.`
+//   } else if (num === 212) {
+//     return `${num} is at boiling point.`
+//   } else {
+//     return `${num} is below boiling point.`
+//   }
+// }
+// console.log(boil(42))
+// console.log(boil(350))
+// console.log(boil(212))
 
 
-// --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
+// // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
-const myNumbers1 = [3, 7, 0, 36, -9]
-const myNumbers2 = [8, -7, 42, 9, 13]
+//Concat on this. adding both consts together into a new const,
+//then returning with .length when logged
 
-
-// --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ohcE"
-
-const currentCohort = "Alpha 2022"
-
-
-// --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
-
-const myArray = [13, 34, 5, 10, 27, 42]
+// const myNumbers1 = [3, 7, 0, 36, -9]
+// const myNumbers2 = [8, -7, 42, 9, 13]
+// const myNumbersCombo = myNumbers1.concat(myNumbers2)
+//
+// console.log(myNumbersCombo.length)
 
 
-// --------------------5) Create a function that takes in a set of any two numbers and subtracts the smaller number from the larger number using the sets of test variables provided below. Expected output: 42, 3
+// // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "2202 ahplA"
 
-// Set one:
-const number1 = 58
-const number2 = 100
+//This one was tricky for me so I hope I did it right. Feels sloppy.
+//I think it is converting to array, splitting array, reversing array, then joining
 
-// Set two:
-const number3 = 27
-const number4 = 24
+// const currentCohort = "Alpha 2022"
+// const splitCohort = currentCohort.split("")
+// const revSplit = splitCohort.reverse()
+// console.log(revSplit.join(""));
+
+// // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
+
+//Check each index against %2 === 0 with odd/even statements in a for loop?
+
+// const myArray = [13, 34, 5, 10, 27, 42]
+// for (var i = 0; i < myArray.length; i++) {
+//   if (myArray[i] % 2 === 0)
+//     console.log("even")
+//   else
+//     console.log("odd")
+//   }
+
+// // --------------------5) Create a function that takes in a set of any two numbers and subtracts the smaller number from the larger number using the sets of test variables provided below. Expected output: 42, 3
+
+// Making a function that reads largerNum > smallerNum regardless of position
+// Then subtracts and returns sum
+// // Set one:
+// const number1 = 58
+// const number2 = 100
+//
+// const subMachine = (number1,number2 ) => {
+//   if (number1 > number2){
+//     return(number1 - number2)
+//   } else if (number2 > number1) {
+//     return(number2 - number1)
+//   }
+// }
+// console.log(subMachine(number1, number2))
+//
+//
+// // // Set two:
+// const number3 = 27
+// const number4 = 24
+// console.log(subMachine(number3, number4))
